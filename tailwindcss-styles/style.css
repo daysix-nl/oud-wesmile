@@ -607,6 +607,9 @@ video {
 .mt-\[-1px\] {
   margin-top: -1px;
 }
+.mb-\[-105px\] {
+  margin-bottom: -105px;
+}
 .block {
   display: block;
 }

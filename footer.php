@@ -16,7 +16,7 @@
         </h5>
     </section>
     <section">
-        <img class="w-[240px] h-[240px] rounded-full object-cover mx-auto mb-[-80px] md:mb-[-120px] relative z-10"
+        <img class="w-[240px] h-[240px] rounded-full object-cover mx-auto mb-[-105px] md:mb-[-120px] relative z-10"
             src="/wp-content/themes/wesmile-theme/public/local/profile.jpg" alt="">
         <div class="md:hidden">
             <?php include(get_template_directory() . '/public/icons/oval-green-mobile.php'); ?>
