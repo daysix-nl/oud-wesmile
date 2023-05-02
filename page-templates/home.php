@@ -11,7 +11,7 @@ get_header(); ?>
         <div class="h-[445px] md:h-[200px] w-full relative bg-white flex">
 
         </div>
-        <div class="relative w-full md:hidden">
+        <div class="relative w-full md:hidden mt-[-1px]">
             <?php include(get_template_directory() . '/public/icons/oval-white-mobile.php'); ?>
         </div>
         <div class="relative w-full hidden md:block">
@@ -19,19 +19,22 @@ get_header(); ?>
         </div>
         <div class="absolute z-10 top-1/2 right-0 left-0 w-full transform  -translate-y-1/2  flex">
             <h1
-                class="text-40 md:pb-8 leading-46 md:text-60 md:leading-66 text-center mx-auto max-w-[820px] text-orange font-dela">
+                class="text-40 md:pb-8 leading-46 md:text-60 md:leading-66 text-center mx-auto max-w-[313px] md:max-w-[820px] text-orange font-dela">
                 Welkom op de
-                <br>tijdelijke
-                webpagina <br> van We Smile <br>
+                <br class="hidden md:block">tijdelijke
+                webpagina <br class="hidden md:block"> van We Smile <br class="hidden md:block">
                 Tandarts Leiden.
             </h1>
         </div>
     </section>
     <section class="pt-6 mb-5 md:mb-10 container px-[15px] md:max-w-[774px]">
-        <h2 class="text-center mb-4 text-green text-26 leading-32 md:text-36 md:leading-42 font-dela">
+        <h2
+            class="text-center mb-[25px] md:mb-4 text-green text-26 leading-32 md:text-36 md:leading-42 font-dela max-w-[310px] mx-auto md:max-w-[774px]">
             Naar de tandarts
             met een glimlach</h2>
-        <p class="mb-5 text-center text-green text-14 leading-22 md:text-16 md:leading-24 font-sans">Binnenkort kunt u
+        <p
+            class="mb-5 text-center text-green text-14 leading-22 md:text-16 md:leading-24 font-sans max-w-[322px] mx-auto md:max-w-[774px]">
+            Binnenkort kunt u
             terecht bij We Smile
             Tandarts
             Leiden: de nieuwe
@@ -51,7 +54,7 @@ get_header(); ?>
             inschrijfformulier</a>
     </section>
     <section class="container md:w-full md:max-w-[990px] grid grid-cols-1 md:grid-cols-2 gap-x-3 gap-y-3  md:gap-y-6">
-        <div class="col-span-1 bg-white px-3 md:py-6 md:px-5 py-[35px]  rounded-[10px]">
+        <div class="col-span-1 bg-white px-3 md:py-6 md:px-5 py-3  rounded-[10px]">
             <h3 class="mb-[25px] md:mb-3  text-20 leading-26 md:text-26 md:leading-32 font-dela text-green text-center">
                 Per wanneer kunt u als
                 patiënt terecht
@@ -67,7 +70,7 @@ get_header(); ?>
                 we een plek voor u vrij.</p>
         </div>
 
-        <div class="col-span-1 bg-white px-3 md:py-6 md:px-5 py-[35px]  rounded-[10px]">
+        <div class="col-span-1 bg-white px-3 md:py-6 md:px-5 py-3  rounded-[10px]">
             <h3 class="mb-[25px] md:mb-3  text-20 leading-26 md:text-26 md:leading-32 font-dela text-green text-center">
                 Waar kunt u onze nieuwe
                 praktijk
@@ -78,7 +81,7 @@ get_header(); ?>
                 (tussen Snackbar Hendo en de Wilhelminabrug).</p>
         </div>
 
-        <div class="col-span-1 bg-white px-3 md:py-6 md:px-5 py-[35px]  rounded-[10px]">
+        <div class="col-span-1 bg-white px-3 md:py-6 md:px-5 py-3  rounded-[10px]">
             <h3 class="mb-[25px] md:mb-3  text-20 leading-26 md:text-26 md:leading-32 font-dela text-green text-center">
                 Wie kunnen terecht bij We
                 Smile
@@ -92,7 +95,7 @@ get_header(); ?>
                 patiëntjes zich vaak snel op hun gemak.</p>
         </div>
 
-        <div class="col-span-1 bg-white px-3 md:py-6 md:px-5 py-[35px]  rounded-[10px]">
+        <div class="col-span-1 bg-white px-3 md:py-6 md:px-5 py-3  rounded-[10px]">
             <h3 class="mb-[25px] md:mb-3  text-20 leading-26 md:text-26 md:leading-32 font-dela text-green text-center">
                 Wilt u de komende tijd op
                 de hoogte

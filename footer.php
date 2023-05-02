@@ -9,7 +9,7 @@
 <footer class="pt-5 md:pt-10">
     <section class="flex">
         <h5
-            class="text-green text-26 font-dela md:mx-auto leading-32 md:text-36 md:leading-32 text-center max-w-[260px] md:max-w-[400px] mx-auto pb-6">
+            class="text-green text-26 font-dela md:mx-auto leading-32 md:text-36 md:leading-32 text-center max-w-[260px] md:max-w-[400px] mx-auto pb-5">
             Tot ziens
             <br>
             in onze praktijk!
@@ -43,7 +43,7 @@
             <div class="container">
                 <div class="md:px-7">
                     <div
-                        class="w-full border-y-[1px] py-5 border-sand flex flex-col items-center lg:grid lg:grid-cols-3">
+                        class="w-full border-y-[1px] md:py-6 py-5 border-sand flex flex-col items-center lg:grid lg:grid-cols-3">
                         <h5
                             class="pb-3 lg:pb-0 text-sand text-26  font-dela mx-auto lg:mx-0  leading-32 text-center lg:text-start max-w-[260px] md:col-span-1">
                             Schrijf je in
