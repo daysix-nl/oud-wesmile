@@ -16,14 +16,14 @@
         </h5>
     </section>
     <section">
-        <img class="w-[240px] h-[240px] rounded-full object-cover mx-auto mb-[-105px] md:mb-[-120px] relative z-10"
+        <img class="w-[240px] h-[240px] rounded-full object-cover mx-auto mb-[-105px] md:mb-[30px] relative z-10"
             src="/wp-content/themes/wesmile-theme/public/local/profile.jpg" alt="">
         <div class="md:hidden">
             <?php include(get_template_directory() . '/public/icons/oval-green-mobile.php'); ?>
         </div>
-        <div class="pb-6 md:pb-0 bg-[#03837A] justify-end md:bg-sand h-[232px] md:h-[335px] relative flex flex-col">
-            <div class="hidden md:block h-full  absolute bottom-0 right-0 left-0 w-full">
-                <?php include(get_template_directory() . '/public/icons/oval-green-mobile.php'); ?>
+        <div class="pb-6 md:pb-0 bg-[#03837A] justify-end md:bg-sand h-[232px] md:h-auto relative flex flex-col">
+            <div class="hidden md:block h-auto  absolute bottom-0 right-0 left-0 w-full">
+                <?php include(get_template_directory() . '/public/icons/oval-green.php'); ?>
             </div>
             <div class="md:mt-auto md:pb-6">
                 <p
