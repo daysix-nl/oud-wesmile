@@ -24,14 +24,15 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        "rubik": ["Rubik"],
-        "space": ["Space Grotesk"],
+        "sans": ['DM Sans', 'sans-serif'],
+        "dela": ['Dela Gothic One', 'cursive'],
       },
       colors: {
         white: "#FFFFFF",
-        black: "#061116",
-        blue: "#1B1564",
-        purple: "#742B8B",
+        black: "#000",
+        green: "#17393F",
+        orange: "#FD6520",
+        sand: "#EFE6D6",
         transparent: "transparent",
       },
       content: {
@@ -398,30 +399,24 @@ module.exports = {
           paddingLeft: "20px",
           paddingRight: "20px",
           "@screen sm": {
-            maxWidth: "800px",
-            width: "auto",
+            maxWidth: "unset",
+            width: "100%",
           },
           "@screen md": {
-            maxWidth: "800px",
-            width: "auto",
+
+            width: "100%",
           },
           "@screen lg": {
-            maxWidth: "800px",
-            width: "800px",
-            paddingLeft: "0px",
-            paddingRight: "0px",
+
+            width: "100%",
           },
           "@screen xl": {
-            maxWidth: "1025px",
-            width: "1025px",
-            paddingLeft: "0px",
-            paddingRight: "0px",
+
+            width: "100%",
           },
           "@screen 2xl": {
-            maxWidth: "1025px",
-            width: "1025px",
-            paddingLeft: "0px",
-            paddingRight: "0px",
+
+            width: "100%",
           },
         },
       });

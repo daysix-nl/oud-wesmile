@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/assets/_algemeen.scss","../scss/assets/_form.scss"],"names":[],"mappings":"AACA,EACI,iCCFJ,SACE,aACA,sBACA,mBACA,WACA,yBACA,0BANF,SAOI,oBAGF,qBACE,WAGF,uBACE,aACA,sBACA,WACA,gCACA,6BAEA,0BAPF,uBAQI,oBAGF,+BACE,WAGF,yCACE,WAEF,6BACE,8BAEA,uBACA,6BACA,sBAEA,0CACE,cACA,0BACA,8CACA,gBAIN,4BACE,iBACA,8BACA,yBACA,WACA,wCACA,YACA,eACA,kBAEA,0BAVF,4BAWI,SACA,YAMJ,0BADF,cAEI,oBACA,qBACA,4BAKF,0BADF,cAEI,WACA","file":"main.css"}
