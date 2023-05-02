@@ -19,7 +19,7 @@ get_header(); ?>
         </div>
         <div class="absolute z-10 top-1/2 right-0 left-0 w-full transform  -translate-y-1/2  flex">
             <h1
-                class="text-40 md:pb-5 leading-46 md:text-60 md:leading-66 text-center mx-auto max-w-[820px] text-orange font-dela">
+                class="text-40 md:pb-8 leading-46 md:text-60 md:leading-66 text-center mx-auto max-w-[820px] text-orange font-dela">
                 Welkom op de
                 <br>tijdelijke
                 webpagina <br> van We Smile <br>
