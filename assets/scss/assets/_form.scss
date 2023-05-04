@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   justify-content: flex-end;
+
   @media (min-width: 1024px) {
     flex-direction: row;
   }
@@ -30,6 +31,7 @@
     .ginput_container {
       width: 100%;
     }
+
     input {
       border-radius: 10px !important;
 
@@ -45,6 +47,7 @@
       }
     }
   }
+
   input[type="submit"] {
     margin-left: 10px;
     border-radius: 10px !important;
@@ -54,12 +57,42 @@
     height: 50px;
     padding: 0 30px;
     width: fit-content;
+    cursor: pointer;
+    transition-duration: 0.3s;
+
+    &:hover {
+      opacity: 0.8;
+      transition-duration: 0.3s;
+    }
 
     @media (max-width: 1024px) {
       margin: 0;
       width: 100%;
     }
   }
+}
+
+.gform_validation_errors {
+  display: none !important;
+}
+
+.gform_wrapper.gravity-theme .gfield_validation_message,
+.gform_wrapper.gravity-theme .validation_message {
+  background: #fff9f900 !important;
+  border: 1px solid #ffffff00 !important;
+  font-size: 14.992px;
+  margin-top: 0px !important;
+  padding: 0px !important;
+}
+
+.gform_wrapper.gravity-theme .gfield_error .gfield_repeater_cell label,
+.gform_wrapper.gravity-theme .gfield_error label,
+.gform_wrapper.gravity-theme .gfield_error legend,
+.gform_wrapper.gravity-theme .gfield_validation_message,
+.gform_wrapper.gravity-theme .validation_message,
+.gform_wrapper.gravity-theme [aria-invalid=true]+label,
+.gform_wrapper.gravity-theme label+[aria-invalid=true] {
+  color: #efe6d6 !important;
 }
 
 .gform_footer {

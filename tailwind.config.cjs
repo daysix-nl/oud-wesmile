@@ -403,19 +403,19 @@ module.exports = {
             width: "100%",
           },
           "@screen md": {
-
+            maxWidth: "1300px",
             width: "100%",
           },
           "@screen lg": {
-
+            maxWidth: "1300px",
             width: "100%",
           },
           "@screen xl": {
-
+            maxWidth: "1300px",
             width: "100%",
           },
           "@screen 2xl": {
-
+            maxWidth: "1300px",
             width: "100%",
           },
         },
