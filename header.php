@@ -17,7 +17,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Dela+Gothic+One&display=swap"
         rel="stylesheet">
 
-    <title><?php bloginfo( 'name' ); ?> | <?php the_title(); ?></title>
+    <title><?php bloginfo( 'name' ); ?></title>
 
     <?php wp_head(); ?>
 </head>
