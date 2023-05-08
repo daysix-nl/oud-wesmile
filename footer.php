@@ -62,13 +62,13 @@
                         © <?php echo date("Y"); ?>. We Smile Tandarts Leiden</p>
                 </div>
                 <div class="flex flex-row mx-auto mb-5 md:mb-0 md:col-span-1 z-10">
-                    <a class="hover:opacity-80 duration-300" href="" target="_blank">
+                    <a class="hover:opacity-80 duration-300" href="https://www.facebook.com/profile.php?id=100090365770206" target="_blank">
                         <?php include(get_template_directory() . '/public/icons/facebook.php'); ?>
                     </a>
-                    <a class="mx-[15px] hover:opacity-80 duration-300" href="" target="_blank">
+                    <a class="mx-[15px] hover:opacity-80 duration-300" href="https://www.instagram.com/we_smile_tandarts_leiden/" target="_blank">
                         <?php include(get_template_directory() . '/public/icons/instagram.php'); ?>
                     </a>
-                    <a class="hover:opacity-80 duration-300" href="" target="_blank">
+                    <a class="hover:opacity-80 duration-300" href="https://www.linkedin.com/" target="_blank">
                         <?php include(get_template_directory() . '/public/icons/linkedin.php'); ?>
                     </a>
                 </div>
