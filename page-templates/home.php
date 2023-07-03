@@ -61,8 +61,7 @@ get_header(); ?>
                 Tandarts
                 Leiden?
             </h3>
-            <p class="text-14 leading-22 md:text-16 md:leading-24 font-sans font-medium text-green text-center">Vanaf
-                augustus 2023. U kunt zich
+            <p class="text-14 leading-22 md:text-16 md:leading-24 font-sans font-medium text-green text-center">Vanaf december 2023. U kunt zich
                 wel alvast
                 inschrijven via de
                 button direct boven deze vraag, dan houden
